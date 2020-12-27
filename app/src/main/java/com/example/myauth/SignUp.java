@@ -205,9 +205,9 @@ public class SignUp extends AppCompatActivity {
                                                 }
                                                 else{
                                                     // Main Work
-                                                        Toast.makeText(getApplicationContext(), "Authentication is not Successful,  Error: "
-                                                                        +task.getException().getCause().getMessage(),
-                                                                Toast.LENGTH_SHORT).show();
+                                                        Toast.makeText(getApplicationContext(),
+                                                                "Authentication is not Successful,  Error: ",
+                                                                Toast.LENGTH_LONG).show();
                                                     // Second Work
                                                         sign_up_progressBar.setVisibility(View.GONE);
 
@@ -237,8 +237,7 @@ public class SignUp extends AppCompatActivity {
                                             sign_up_progressBar.setVisibility(View.GONE);
                                         }
                                         else{
-                                            Toast.makeText(getApplicationContext(), "Authentication failed.. Error:"
-                                                            +task.getException().getCause().getMessage(),
+                                            Toast.makeText(getApplicationContext(), "Authentication failed.. ",
                                                     Toast.LENGTH_SHORT).show();
                                             sign_up_progressBar.setVisibility(View.GONE);
                                         }
