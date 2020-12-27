@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59830504713",
+    "project_id": "my-auth-final",
+    "storage_bucket": "my-auth-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59830504713:android:214ff2d334ec08a22097d8",
+        "android_client_info": {
+          "package_name": "com.example.myauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59830504713-i2rljmmke0qipqipc8dvvuoq0bp6v5ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmWVG6HYgmRDGgTLf2B7kOP4EcEiUdzoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59830504713-i2rljmmke0qipqipc8dvvuoq0bp6v5ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

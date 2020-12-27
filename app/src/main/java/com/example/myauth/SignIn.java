@@ -60,6 +60,7 @@ public class SignIn extends AppCompatActivity {
 
     private void sign_up_move() {
         startActivity(new Intent(SignIn.this,SignUp.class));
+
     }
 
     private void signInAccount() {
